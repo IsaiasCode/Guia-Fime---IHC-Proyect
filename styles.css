@@ -168,11 +168,11 @@ ul {
  /*Footer*/
  .copy {
   text-align: center;
-  color: #2a7c6f;
+  color: green;
 }
 h2{
   font-size: larger;
-  color:  #2a7c6f;
+  color: green;
   font-family: "Sanchez";
 }
 .container--flex {
@@ -187,6 +187,8 @@ h2{
 }
 p, a{
     display: block;
-    color:  #2a7c6f;
+    color: green;
+    text-decoration: none;
 }
 
+/*Barra de Busqueda*/
