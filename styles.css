@@ -190,5 +190,62 @@ p, a{
     color: green;
     text-decoration: none;
 }
+.imagenes1{
+  width: 300px;
+  display: block;
+  margin: auto;
+
+}
+
+/*Aportes*/
+
+.aporte {
+  background-color: green;
+  align-items: center;
+  text-align: center;
+}
+
+label{
+  color: white;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 1em;
+  padding-left: 40em;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Sanchez";
+  text-decoration: none;
+}
+
+input{
+  display: block;
+  text-align: center;
+  margin-left: 52em;
+}
+
+textarea{
+  display: block;
+  text-align: center;
+  margin-left: 50em;
+}
+
+.btn_formulario__btn{
+  margin-top: 1em;
+  margin-left: 43em;
+  font-size: large;
+}
+
+.com{
+  color: white;
+}
 
 /*Barra de Busqueda*/
+
+
