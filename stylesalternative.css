@@ -187,6 +187,7 @@ h2{
 }
 p, a{
     display: block;
+    color: #2a7c6f;
     text-decoration: none;
 }
 .imagenes1{
@@ -214,7 +215,7 @@ label{
 }
 
 h5 {
-  color: white;
+  color: #2a7c6f;
   text-align: center;
   font-size: 2.5em;
   padding-top: 10px;
@@ -224,26 +225,20 @@ h5 {
 }
 
 input{
-  display:inline-block;
+  display: block;
   text-align: center;
-  justify-content: center;
-  padding: 12px 10px;
-  margin: 8px 0px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-left: 47em;
-
+  margin-left: 52em;
 }
 
 textarea{
   display: block;
   text-align: center;
-  margin-left: 45em;
+  margin-left: 50em;
 }
 
 .btn_formulario__btn{
   margin-top: 1em;
-  margin-left: 39em;
+  margin-left: 43em;
   font-size: large;
 }
 
@@ -251,17 +246,13 @@ textarea{
   color: white;
 }
 
-/*texto en verde*/
-.green{
-  color: #2a7c6f;
+/*deportes*/
+.group-servicesdeport{
+  background-color: #2a7c6f;
+  color:white;
 }
-.input[type=submit] {
-  width: 460px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
