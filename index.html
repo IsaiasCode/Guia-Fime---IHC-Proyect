@@ -2,49 +2,65 @@
 <html lang="en">
 <head>
 <title>CSS Template</title>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500&family=Sanchez&display=swap" rel="stylesheet"> 
-  
-  
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<nav class="navsuperior">
+<nav class="navarriba">
   <ul>
-    <li><a href="#home">GUIA FIME</a></li>
-    <li><a href="#home">Inicio</a></li>
-    <li><a href="#news">Grupos</a></li>
-    <li><a href="#contact">Comida</a></li>
-    <li><a href="#contact">Deportes</a></li>
-    <li><a href="#contact">Mas</a></li>
-    <li style="float:right"><a class="active" href="#about">About</a></li>
+    <li><img src="../img/miniLogo.webp" alt="Logo"></li>
+    <li><a href="../index.html" class="logoNav">GUIA FIME</a></li>
+    <li><a href="../index.html " >INICIO</a></li>
+    <li><a href="../grupos.html">GRUPOS</a></li>
+    <li><a href="../comida.html">COMIDA</a></li>
+    <li><a href="../deportes.html">DEPORTES</a></li>
+    <li><a href="../aportar.html">APORTAR+</a></li>
+    <li style="float:right"> </li>
   </ul>
 </nav>
 
 <section>
   <nav>
     <div class="vertical-menu">
-      <a href="#" class="active">Home</a>
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 4</a>
+      <a class="active" href="../index.html" target="_top">INICIO</a>
+      <a href="../grupos.html" target="_top">GRUPOS</a>
+      <a href="../comida.html" target="_top">COMIDA</a>
+      <a href="../deportes.html" target="_top">DEPORTES</a>
+      <a href="../aportar.html" target="_top">APORTAR+</a>
     </div>
   </nav>
   
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
+  <div>
+    <p class="h1">DESCUBRA<br>FIME</p>
+    <p class="subtitulo">¿Que hacer en FIME? </p>
+    
+  </div>
+  <div>
+      <img src="../img/osoGigante.webp" width="600" height="600" alt="osoGigante"></img>
+  </div>
+
 </section>
 
 <footer>
-  <p>Footer</p>
+  <div class="container container--flex">
+    <div class="column column--33">
+    <h2>Encuentra FIME</h2>
+    </div>
+    <div class="column column--33">
+      <p>Contacto: guiafime@gmail.com</p>
+      <p><a href="aportar.html">Quiero Aportar</a></p>
+      <p><a href="foro.html">Sugerencias</a></p>
+    </div>
+  </div>
+  <p class="copy">© 2022 por Encuentra FIME. </p>
+  </div>
 </footer>
 
 </body>
